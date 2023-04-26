@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek Burger</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>     
+    </style>
+</head>
+<body>
+    <div id="felsodoboz">
+    
+    <header>
+       <img   id="pic" src="./pic/queen2.jpg" alt="Burger Queen Logo"> 
+        
+        
+        <h1 id="home">Burger Queen</h1>
+        
+    </header>
+    
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rendelés">Rendelés</a></li>
+            <li><a href="#kapcsolat">Kapcsolat</a></li>
+        </ul>
+    </nav>
+    
+    <h3>
+        Éhes vagy? Akkor jó helyen jársz!
+    </h3>
+    <p id="bevezeto">Állítsd össze a kedvenc burgered, akár vegetáriánus húspogácsából!</p>
+    </div>
+    <main>
+        <section id="elso_szoveg">
+            <h2></h2>
+       
+        <p>
+            Szeretnél egy ütős burgert, és nincs kedved a konyhában a mosatlanok között matatni?
+            Akkor állítsd össze nálunk a kedvenc burgered a saját ízlésed szerint!
+        </p>
+            
+        <p>
+            Diétázol? Ételallergiád van? Nem probléma! Nálunk a hamburgerbucit kérheted akár teljeskiörlésű, vagy gluténmentes kivitelben
+            és többféle vegeteráiánus vagy csirkehúsos húspogácsa közül választhatsz! 
+
+        </p>
+        </section>
+        <section id="rendelés">
+        <p>
+            Add le a rendelésed még most és mi kiszállítjuk 45 percen belül!
+        </p>
+        </section>
+        
+
+        <form action="https://formspree.io/f/mayzodda" method="post">
+        <section>
+            <p>Milyen bucit szeretnél?</p>
+            <input type="radio" name="buci" id="norm" value="normal">
+            <label id="buci1" for="norm">Normál</label>
+        
+            <input type="radio" name="buci" id="teljes" value="teljes">
+            <label id="buci1" for="teljes">Teljes kiörlésű</label>
+            
+        </section>
+        
+    <section>
+            <p>Milyen húspogácsát szeretnél?</p>
+            <label for="pogi">Válassz:</label>
+            <select name="pogi" id="pogi">
+                <option value="marha">Marha</option>
+                <option value="sertés">Sertés</option>
+                <option value="csirke">Csirke</option>
+                <option value="szoja">Szója</option>
+                <option value="brokkoli">Brokkoli</option>
+                
+                
+               
+            </select>
+        </section>
+    
+        <section>
+            <p>Milyen 1-es típusú feltéteket szeretnél a burgerre?</p>
+            <input type="checkbox" name="Saláta" id="feltét1">
+            <label for="feltét1">Saláta</label>
+            <input type="checkbox" name="Paradicsom" id="feltét2">
+            <label for="feltét2">Paradicsom</label>
+            <input type="checkbox" name="Hagyma" id="feltét3">
+            <label for="feltét3">Hagyma</label>
+            <input type="checkbox" name="Lilahagyma" id="feltét4">
+            <label for="feltét4">Lilahagyma</label>
+            <input type="checkbox" name="Koviubi" id="feltét5">
+            <label for="feltét5">Koviubi</label>
+            
+            
+        </section>
+        
+    
+        <section>
+            <p>Milyen 2-es típusú feltéteket szeretnél a burgerre?</p>
+            <input type="checkbox" name="Pirított" id="feltét11">
+            <label for="feltét11">Pirított hagyma</label>
+            <input type="checkbox" name="Bacon" id="feltét12">
+            <label for="feltét12">Bacon</label>
+            <input type="checkbox" name="Karamellizált" id="feltét13">
+            <label for="feltét13">Karamellizált hagyma</label>
+            <input type="checkbox" name="Cheddar" id="feltét14">
+            <label for="feltét14">Cheddar sajt</label>
+            <input type="checkbox" name="Trappista" id="feltét15">
+            <label for="feltét15">Trappista sajt</label>
+            
+            
+        </section>
+        
+        <section>
+            <p>Milyen szószt szeretnél?</p>
+            <input type="checkbox" name="Ketchup" id="szosz1">
+            <label for="szosz1">Ketchup</label>
+            <input type="checkbox" name="Majonéz" id="szosz2">
+            <label for="szosz2">Majonéz</label>
+            <input type="checkbox" name="Mustár" id="szosz3">
+            <label for="szosz3">Mustár</label>
+            <input type="checkbox" name="Házi" id="szosz4">
+            <label for="szosz4">Házi hamburgerszósz</label>
+            <input type="checkbox" name="Chili" id="szosz5">
+            <label for="szosz5">Chili szósz</label>
+            
+            
+        </section>
+    
+        <section id="megjegyzés">
+            <textarea name="text" id="" cols="50" rows="10">Ha van valami megjegyzésed, azt ide írhatod!</textarea>
+            <button type="reset" class="button-24" role="button" >Adatok törlése</button>
+        </section>
+    
+        <section id="megrendelem">
+            <button class="button-73" role="button" type="submit">Megrendelem</button>
+            
+        </section>
+        </form>
+
+    </main>
+    
+
+
+    
+    <footer id="kapcsolat">
+        <table>
+            <tr>
+            <th id="kapcsolat_bal"> Kapcsolat: </th>
+            <th id="kapcsolat_jobboldal"> 
+                Rendelés felvétel Non-Stop! </th>
+            </tr>
+            <tr>
+                <th id="kapcsolat_bal">Tel.: +36301234567</th> 
+                <th id="kapcsolat_jobboldal">
+                    Hétfőtől péntekig 0-24 óráig!</th>
+            </tr>
+            <tr>
+                <th id="kapcsolat_bal">1234, Felsősükösd, Pacsirta utca 13.</th>
+                <th id="kapcsolat_jobboldal" >
+                    Kiszállítást vállalunk egész Felsősükösd területére ingyenesen!</th>
+            </tr>
+            <tr>
+                <th id="kapcsolat_bal">e-mail: burgerqueen@burgerqueen.com </th>
+                <th id="kapcsolat_jobboldal"><a href="#home">Home</a></th>
+            </tr>
+       
+    </table>
+    </footer>
+
+
+  <script src="script.js"></script>  
+</body>
+</html>

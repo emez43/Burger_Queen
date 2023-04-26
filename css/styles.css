@@ -1,0 +1,317 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*FEJLÉC*/
+
+h1{ 
+    margin: 0px;
+    text-align: center;
+    padding:10px;
+    color: greenyellow;
+    text-shadow: 4px 4px 3px rgb(49, 49, 235);
+    /*border:solid 10px greenyellow;*/
+    border-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+    height: 55px;
+    text-transform: uppercase;
+}
+
+#felsodoboz {
+    background-image: url(../pic/kep1.jpg);
+    padding: 0px 0px 200px 0px;
+    background-attachment: fixed;
+    background-position: initial;
+    background-size: cover ;
+}
+
+header{
+    position: relative; 
+}
+
+#pic{
+    width: 80px;
+    height: 80px;
+    margin: 5px 0px 0px 5px;
+    position:absolute;
+    cursor: pointer;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(172, 255, 47, 0.623);
+    
+}
+ul::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 15px;
+}
+li a:hover{
+    color:white;
+    background-color: rgba(32, 155, 172, 0.74);
+    border: solid black;
+    border-bottom: 0px;
+    border-top: 0px;
+    
+}
+
+
+
+
+/*BEVEZETO*/
+h2 {
+    margin: 10px;
+    padding: 0px;
+}
+h5 {
+    margin: 10px;
+    padding: 10px; 
+}
+h3 {
+    color: whitesmoke;
+    text-shadow: 2px 3px 3px blue;
+    padding: 30px;
+    margin:110px 20px 50px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    }
+
+    #bevezeto{
+        font-size: 30px;
+        text-align: center;
+        margin: 0px 30px 0px 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+    }
+
+    /*MAIN */
+
+
+#elso_szoveg {
+    font-family: cursive;
+    background-color: darkolivegreen;
+    color: beige;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px 20px 20px 20px;
+    padding: 20px;
+    font-size: larger;
+    box-shadow: -2px -2px 5px black, 2px 2px 5px black;
+    text-align: center;
+    word-spacing: 5px;
+    
+}
+
+#rendelés {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 20px 0px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+main{
+    background-color:  rgba(106, 197, 31, 0.418);
+    padding: 20px 0px;
+}
+
+section{
+    font-family: cursive;
+    background-color: rgb(85, 107, 47);
+    color: beige;
+    text-shadow: 2px 2px 2px black;
+    margin: 35px 20px;
+    padding: 20px;
+    font-size: larger;
+    box-shadow: -2px -2px 5px black, 2px 2px 5px black;  
+}
+
+
+section input {
+margin: 5px 0px 5px 20px;
+}
+
+#megjegyzés{
+    margin: 0px 20px;
+    box-shadow: -2px -2px 5px black, 2px 0px 5px black; 
+
+}
+
+#megrendelem {
+    margin: 0px 20px;
+
+    box-shadow: -2px 0px 5px black, 2px 2px 5px black;
+}
+
+
+/*KAPCSOLAT*/
+
+#kapcsolat{
+    color: white;
+    background-color: grey;
+    text-align: left;
+    font-family: cursive;
+    font-size: larger;
+}
+#kapcsolat_bal {
+    margin: 10px;
+    text-align: left;
+    float: left;
+    text-shadow: 2px 2px 2px black;
+}
+#kapcsolat_jobboldal {
+    
+    margin: 10px;
+    text-align: righ;
+    float: right;
+    text-shadow: 2px 2px 2px black;
+}
+table {
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+  }
+  th a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
+/*
+body{
+    background-color: rgb(144, 230, 172);*/
+/*background-image: url(../pic/kep1.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: top;
+background-attachment: fixed;
+margin: 0px;*/
+
+
+/*div{
+    height: 100px;
+    width: 25vw;
+    background-color: green;
+    position: relative;
+    background-image: linear-gradient(90deg,black,blue,green,red,yellow,white);
+    box-shadow: 10px 10px, inset 24px 25px 5px red;} */
+    
+    
+    
+    
+
+
+/* Buttons */
+
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+
+
+/* button2 */
+
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+    
+    
+
+
