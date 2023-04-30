@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+
 }
 
 
@@ -47,7 +48,7 @@ nav{
 ul{
     padding: 0;
     list-style-type: none;
-    background-color: rgba(172, 255, 47, 0.623);
+    background-color: rgba(172, 255, 47, 0.849);
     
 }
 ul::after{
