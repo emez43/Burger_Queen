@@ -20,7 +20,6 @@ else{
 
 
 let logo= document.querySelector('#pic')! as HTMLImageElement
-//let logo = document.querySelector<HTMLImageElement>('#pic')!;
 
 
 logo.style.left = '0%';

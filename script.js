@@ -13,7 +13,6 @@ else {
 //    window.location.reload();
 //} 
 let logo = document.querySelector('#pic');
-//let logo = document.querySelector<HTMLImageElement>('#pic')!;
 logo.style.left = '0%';
 logo.onclick = function logoMove(evt) {
     if (logo.style.left === '0%' || logo !== null) {
