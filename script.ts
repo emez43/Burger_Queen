@@ -1,4 +1,4 @@
-//udvozles
+
 const d: Date = new Date()
 let hour: number = d.getHours()
 
