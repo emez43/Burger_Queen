@@ -1,4 +1,3 @@
-//udvozles
 const d = new Date();
 let hour = d.getHours();
 if (hour < 9) {
@@ -10,7 +9,6 @@ else if (hour > 17) {
 else {
     document.querySelector('h2').innerHTML = `Jó napot! <h5>Ennél egy ebédet, vagy vacsorát?</h5>`;
 }
-// refresh              
 //function refreshPage(){
 //    window.location.reload();
 //} 
